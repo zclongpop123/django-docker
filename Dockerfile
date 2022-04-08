@@ -7,11 +7,8 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.tuna.tsinghua.edu.cn/g' /etc/apk/re
             musl-dev \
             libpq-dev
 
-RUN python -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade pip &&\
-    pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+COPY requirements.txt /tmp/
 
-RUN pip install --no-cache-dir \
-                redis \
-                django-redis \
-                psycopg2 \
-                django==4.0
+RUN pip install -i https://pypi.tuna.tsinghua.edu.cn/simple \
+                -r /tmp/requirements.txt \
+                --no-cache-dir
