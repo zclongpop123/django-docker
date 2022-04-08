@@ -11,5 +11,7 @@ RUN python -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade 
     pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 
 RUN pip install --no-cache-dir \
+                redis \
+                django-redis \
                 psycopg2 \
                 django==4.0
