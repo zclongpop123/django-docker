@@ -11,4 +11,5 @@ COPY requirements.txt /tmp/
 
 RUN pip install -i https://pypi.tuna.tsinghua.edu.cn/simple \
                 -r /tmp/requirements.txt \
+                --upgrade pip \
                 --no-cache-dir
