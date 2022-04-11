@@ -2,4 +2,4 @@ redis
 django-redis
 psycopg2
 django==4.0
-uwsgi
+https://projects.unbit.it/downloads/uwsgi-lts.tar.gz
