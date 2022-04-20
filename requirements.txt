@@ -1,6 +1,7 @@
 redis
 django-redis
 psycopg2
-django==4.0
+django
+django[argon2]
 requests
 https://projects.unbit.it/downloads/uwsgi-lts.tar.gz
