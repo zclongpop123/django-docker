@@ -6,6 +6,7 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.tuna.tsinghua.edu.cn/g' /etc/apk/re
             linux-headers \
             musl-dev \
             libpq-dev \
+            libffi-dev \
             postgresql
 
 COPY requirements.txt /tmp/
