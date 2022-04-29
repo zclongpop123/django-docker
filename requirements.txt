@@ -1,4 +1,5 @@
 redis
+hiredis
 django-redis
 psycopg2
 django
