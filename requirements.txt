@@ -4,5 +4,6 @@ django-redis
 psycopg2
 django
 django[argon2]
+djangorestframework
 requests
 https://projects.unbit.it/downloads/uwsgi-lts.tar.gz
