@@ -1,9 +1,10 @@
 redis
 hiredis
-django-redis
 psycopg2
-django
-django[argon2]
-djangorestframework
 requests
+django
+django-redis
+django-filter
+djangorestframework
+django[argon2]
 https://projects.unbit.it/downloads/uwsgi-lts.tar.gz
