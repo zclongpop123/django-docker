@@ -6,5 +6,6 @@ django
 django-redis
 django-filter
 djangorestframework
+djangorestframework-api-key
 django[argon2]
 https://projects.unbit.it/downloads/uwsgi-lts.tar.gz
